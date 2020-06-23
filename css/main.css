@@ -43,12 +43,10 @@ ul.posts li {
 }
 
 
-        imgbox {
-            display: grid;
-            height: 100%;
-        }
-        center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-        }
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
